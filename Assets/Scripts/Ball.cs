@@ -15,7 +15,7 @@ public class Ball : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            GetComponent<Rigidbody>().velocity = new Vector3(0, 4.5f, 0);
+            GetComponent<Rigidbody>().velocity = new Vector3(0, 4, 0);
         }
 
         

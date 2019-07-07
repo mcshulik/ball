@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Cube : MonoBehaviour
 {
+	public bool IsCopy = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,8 +15,13 @@ public class Cube : MonoBehaviour
     void Update()
     {
 	
-        {
-            GetComponent<Rigidbody>().velocity = new Vector3(0, 0, -1);
-        }
+		if (IsCopy) 
+		{
+			GetComponent<Rigidbody>().velocity = new Vector3(0, 0, -1);
+		}
     }
+	private void OnTriggerEnter(Collider other)
+	{
+		print("Game over");
+	}
 }

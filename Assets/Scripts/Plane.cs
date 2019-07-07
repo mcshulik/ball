@@ -16,8 +16,8 @@ public class Plane : MonoBehaviour
         
     }
 	
-private void OnTriggerEnter(Collider other)
-{
-print("Game over");
-}
+	private void OnTriggerEnter(Collider other)
+	{
+		print("Game over");
+	}
 }
