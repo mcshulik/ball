@@ -5,6 +5,7 @@ using UnityEngine;
 public class Cube : MonoBehaviour
 {
 	public bool IsCopy = false;
+	public float speed = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +18,8 @@ public class Cube : MonoBehaviour
 	
 		if (IsCopy) 
 		{
-			GetComponent<Rigidbody>().velocity = new Vector3(0, 0, -1);
+			Vector3 newposition = new Vector3(transform.position.x, transform.position.y, transform.position.z - speed*Time.deltaTime);
+			transform.position = newposition;
 		}
     }
 	private void OnTriggerEnter(Collider other)
