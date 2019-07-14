@@ -56,7 +56,8 @@
      <Compile Include="Assets\plane.cs" />
      <Compile Include="Assets\Scripts\Ball.cs" />
      <Compile Include="Assets\Scripts\Cube.cs" />
-     <Compile Include="Assets\Scripts\Plane.cs" />
+     <Compile Include="Assets\Scripts\DangerObject.cs" />
+     <Compile Include="Assets\Scripts\RemovingWall.cs" />
      <Compile Include="Assets\Scripts\WallGenerator.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/mcpec/Documents/GitHub/ball/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

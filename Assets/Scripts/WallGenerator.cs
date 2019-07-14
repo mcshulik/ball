@@ -22,7 +22,7 @@ public class WallGenerator : MonoBehaviour
 			TimeToCreate += CreationTimeDelta;
 			Vector3 position = new Vector3(Wall.transform.position.x, Random.Range(1.7f, 4.9f), Wall.transform.position.z);
 			GameObject copy = Object.Instantiate(Wall, position, Wall.transform.rotation);
-			copy.GetComponent<Cube>().IsCopy = true;
+			copy.GetComponent<DangerObject>().IsCopy = true;
 
 		} 
     }
