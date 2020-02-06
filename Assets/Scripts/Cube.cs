@@ -15,7 +15,6 @@ public class Cube : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		Destroy(this);
 		if (IsCopy) 
 		{
 			Vector3 newposition = new Vector3(transform.position.x, transform.position.y, transform.position.z - speed*Time.deltaTime);

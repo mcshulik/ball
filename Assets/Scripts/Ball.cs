@@ -13,7 +13,7 @@ public class Ball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown("space"))
         {
             GetComponent<Rigidbody>().velocity = new Vector3(0, 4, 0);
         }

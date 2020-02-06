@@ -9,7 +9,7 @@ public class  RemovingWall : MonoBehaviour
 	private void OnTriggerEnter(Collider other)
 	{
 
-		Destroy(other);	
+		Destroy(other.gameObject.transform.parent.gameObject);	
 		
 	}
 }
