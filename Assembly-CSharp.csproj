@@ -63,6 +63,7 @@
     <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Ball.cs" />
     <Compile Include="Assets\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\Scripts\ButtonMainMenu.cs" />
     <Compile Include="Assets\Scripts\DangerObject.cs" />
     <Compile Include="Assets\Scripts\MovableObject.cs" />
     <Compile Include="Assets\Scripts\RemovingWall.cs" />

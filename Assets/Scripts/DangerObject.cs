@@ -11,7 +11,7 @@ public class  DangerObject : MonoBehaviour
 	{
 		if (other == Player)
 		{
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("GameOver");
         }
 	}
 
