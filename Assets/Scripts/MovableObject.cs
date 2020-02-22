@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cube : MonoBehaviour
+public class MovableObject : MonoBehaviour
 {
 	public bool IsCopy = false;
 	public float speed = 0;
@@ -21,8 +21,5 @@ public class Cube : MonoBehaviour
 			transform.position = newposition;
 		}
     }
-	private void OnTriggerEnter(Collider other)
-	{
-		print("Game over");
-	}
+	
 }

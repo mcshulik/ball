@@ -13,4 +13,5 @@ public class  DangerObject : MonoBehaviour
 			print("Game over");	
 		}
 	}
+
 }
